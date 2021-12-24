@@ -389,7 +389,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 		HPivs: {def: 30, spd: 30, spe: 30},
 		HPdvs: {atk: 13, def: 12},
 	},
-	steel: {
+	Steel: {
 		damageTaken: {
 			psn: 3,
 			tox: 3,
