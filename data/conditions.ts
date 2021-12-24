@@ -412,13 +412,11 @@ export const Conditions: {[k: string]: ConditionData} = {
 		},
 	},
 	gem: {
-		name: 'gem',
 		duration: 1,
 		affectsFainted: true,
-		onBasePowerPriority: 14,
 		onBasePower(basePower, user, target, move) {
 			this.debug('Gem Boost');
-			return this.chainModify([0x14CD, 0x1000]);
+			return this.chainModify(1.5);
 		},
 	},
 
