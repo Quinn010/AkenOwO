@@ -26,7 +26,7 @@ export const Formats: FormatList = [
 		section: "Sw/Sh Singles",
 	},
 	{
-		name: "[Gen 8] Challange Friends in custom game",
+		name: "[Gen 8] Challange Friends in Singles/doubles MMO",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3656537/">Random Battle Suggestions</a>`,
@@ -37,7 +37,7 @@ export const Formats: FormatList = [
 		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 	},
 	{
-		name: "[Gen 8] Custom Game",
+		name: "[Gen 8] Singles MMO",
 
 		mod: 'gen8',
 		searchShow: false,
@@ -68,7 +68,7 @@ export const Formats: FormatList = [
 		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod'],
 	},
 	{
-		name: "[Gen 8] Doubles Custom Game",
+		name: "[Gen 8] Doubles MMO",
 
 		mod: 'gen8',
 		gameType: 'doubles',
