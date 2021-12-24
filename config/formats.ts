@@ -50,7 +50,7 @@ export const Formats: FormatList = [
 			battle: 24,
 		},
 		// no restrictions, for serious (other than team preview)
-		ruleset: ['Standard'],
+		ruleset: ['Cancel Mod','Sleep Clause Mod','Team Preview','Exact HP Mod' ],
 	},
 
 	// Sw/Sh Doubles
@@ -82,6 +82,6 @@ export const Formats: FormatList = [
 			battle: 24,
 		},
 		// no restrictions, for serious (other than team preview)
-		ruleset: ['Standard',],
+		ruleset: ['Cancel Mod','Sleep Clause Mod','Team Preview','Exact HP Mod'],
 	},
 ];
