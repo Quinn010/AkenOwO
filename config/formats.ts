@@ -50,7 +50,7 @@ export const Formats: FormatList = [
 			battle: 24,
 		},
 		// no restrictions, for serious (other than team preview)
-		ruleset: ['Team Preview', 'Cancel Mod', 'Species Clause','HP Percentage Mod'],
+		ruleset: ['Standard','Switch Priority Clause Mod','Adjust Level = 50'],
 	},
 
 	// Sw/Sh Doubles
@@ -82,6 +82,6 @@ export const Formats: FormatList = [
 			battle: 24,
 		},
 		// no restrictions, for serious (other than team preview)
-		ruleset: ['Team Preview', 'Cancel Mod','Sleep Clause Mod'],
+		ruleset: ['Standard','Switch Priority Clause Mod'],
 	},
 ];
