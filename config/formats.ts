@@ -44,13 +44,13 @@ export const Formats: FormatList = [
 		debug: true,
 		maxLevel: 9999,
 		battle: {trunc: Math.trunc},
-		defaultLevel: 100,
+		defaultLevel: 50,
 		teamLength: {
 			validate: [1, 24],
 			battle: 24,
 		},
 		// no restrictions, for serious (other than team preview)
-		ruleset: ['Standard','Switch Priority Clause Mod','Adjust Level = 50'],
+		ruleset: ['Standard'],
 	},
 
 	// Sw/Sh Doubles
@@ -75,13 +75,13 @@ export const Formats: FormatList = [
 		searchShow: false,
 		maxLevel: 9999,
 		battle: {trunc: Math.trunc},
-		defaultLevel: 100,
+		defaultLevel: 50,
 		debug: true,
 		teamLength: {
 			validate: [2, 24],
 			battle: 24,
 		},
 		// no restrictions, for serious (other than team preview)
-		ruleset: ['Standard','Switch Priority Clause Mod'],
+		ruleset: ['Standard',],
 	},
 ];
