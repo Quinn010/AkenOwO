@@ -76,7 +76,6 @@ export const Formats: FormatList = [
 		maxLevel: 9999,
 		battle: {trunc: Math.trunc},
 		defaultLevel: 50,
-		debug: true,
 		teamLength: {
 			validate: [2, 24],
 			battle: 24,
